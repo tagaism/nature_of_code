@@ -15,7 +15,7 @@ class Walker{
     float dir = random(1);
     // 4 possible direction + 1 possibility to stay in current place,
     // each has 10% of possibility.
-    // and 50% of probabilty of moving in the direction of the mouse?
+    // and 50% of probabilty of moving in the direction of the mouse.
     if(dir < 0.5) {
       followMouse();
     } else {
