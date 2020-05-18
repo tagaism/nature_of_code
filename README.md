@@ -9,3 +9,6 @@ each has 10% of possibility and 50% of probabilty of moving in the direction of 
 ![](normal_distribution_of_random_nums/norm_dist_of_rand_nums.gif)<br/>
 With graphic variant: &mu; = 30, &sigma; = 6: <br/>
 ![](normal_distribution_of_random_nums2/norm_dist_of_rand_nums2.gif)
+### Splatter<br/>
+A simulation of paint splatter drawn as a collection of colored dots.<br/>
+![](splatter/splatter.png)
