@@ -12,3 +12,6 @@ With graphic variant: &mu; = 30, &sigma; = 6: <br/>
 ### Splatter<br/>
 A simulation of paint splatter drawn as a collection of colored dots.<br/>
 ![](splatter/splatter.png)
+### Perlin noise <br/>
+2-D noise with 3 arguments (x, y and animation variable), that changes by time and make it dynamic.
+![](perlin_noise/perlin_noise.gif)
