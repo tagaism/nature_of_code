@@ -1,14 +1,13 @@
 class Walker{
-  int x, y; //position coordinates
+  PVector position; //position coordinates
   Walker(){
     //initiate walker in the center
-    x = width/2;
-    y = height/2;
+    position = new PVector(width/2, height/2);
   }
   
   void display(){
     stroke(0);
-    point(x, y);
+    point(position.x, position.y);
   }
   
   void walk(){
@@ -20,27 +19,27 @@ class Walker{
       followMouse();
     } else {
       if(dir < 0.6) {
-        x++;
+        position.x++;
       } else if(dir < 0.7) {
-        x--;
+        position.x--;
       } else if(dir < 0.8) {
-        y++;
+        position.y++;
       } else if(dir < 0.9) {
-        y--;
+        position.y--;
       }
     }
   }
 
   void followMouse(){
-    if(mouseX > x) {
-      x++;
+    if(mouseX > position.x) {
+      position.x++;
     } else {
-      x--;
+      position.x--;
     }
-    if(mouseY > y) {
-      y++;
+    if(mouseY > position.y) {
+      position.y++;
     } else {
-      y--;
+      position.y--;
     }
   }
 }
